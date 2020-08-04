@@ -1,1 +1,1 @@
-# Exercie---Javascrip---Click-Counter
+# Exercie-Javascrip-Click-Counter
