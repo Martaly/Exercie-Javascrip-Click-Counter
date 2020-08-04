@@ -1,11 +1,72 @@
 body{
-    height: auto;
+    height: 350px;
     width: auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E57C04;
+    padding:7em;
 }
-.countBtn button:hover{
-    border-radius: 5px;
-    height:auto;
-    width:auto;
+h1{
+    font-family: monospace;
+    font-size: 50px;
+   }
+
+   .count{
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+   
+.countUp button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #F63E02;
+}
+.countUp button:hover{
+   border: solid 2px #F3B700;
+}
+
+.countDown button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #F63E02;
+}
+.countDown button:hover{
+   border: solid 2px #F3B700;
+}
+
+
+
+.resetBtn button{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #F63E02;
+}
+.resetBtn button:hover{
+   border: solid 2px #F3B700;
+}
+
+.countNum{
+    background-color: #FAA300;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    text-align: center;
+}
+.countNum h1{
+    font-family: monospace;
+    font-size: 25px;
+
 }
