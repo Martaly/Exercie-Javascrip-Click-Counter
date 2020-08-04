@@ -1,0 +1,11 @@
+body{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.countBtn button:hover{
+    border-radius: 5px;
+    height:auto;
+    width:auto;
+}
